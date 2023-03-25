@@ -1,6 +1,6 @@
 properties(
     [
-        pipelineTriggers([pollSCM('* * * * *')])
+        pipelineTriggers([pollSCM('*/30 * * * *')])
     ]
 )
 pipeline {
