@@ -1,1 +1,2 @@
-print("MySoftware main branch")
+def click():
+    print("Click")
